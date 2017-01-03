@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一侧定宽，另一侧自动</title>
+    <style rel="stylesheet" type="text/css">
+        .m-box{
+            width:100%;
+            margin:0;
+            padding:0;
+            height:300px;
+        }
+        .left{
+            /*float: left;*/
+
+            position: absolute;
+            height:200px;
+            width: 200px;
+            background-color: #666666;
+            text-align: center;
+        }
+        .right{
+            /*width:100%;*/
+            margin:0 210px;
+            height:300px;
+            background-color: aqua;
+            text-align: center;
+            /*margin-left:250px;*/
+        }
+    </style>
+</head>
+<body>
+<div class="m-box">
+    <div class="left">左定</div>
+    <div class="right">右自动</div>
+</div>
+</body>
+</html>

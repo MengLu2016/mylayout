@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两列等高</title>
+    <style type="text/css">
+        *{
+            margin:0;
+            padding:0;
+        }
+        .m-box{
+            margin:0 auto;
+            width: 600px;
+            overflow: hidden;
+        }
+        .left{
+            float: left;
+            width:150px;
+            background-color: aquamarine;
+            padding-bottom: 500px;
+            margin-bottom: -500px;
+        }
+        .right{
+            float: left;
+            width:450px;
+            background-color: #666666;
+            padding-bottom: 500px;
+            margin-bottom: -500px;
+        }
+    </style>
+</head>
+<body>
+<div class="m-box">
+    <div class="left">左</div>
+    <div class="right">
+        右<br>
+        右<br>
+        右<br>
+    </div>
+    <div style="clear: both"></div>
+</div>
+</body>
+</html>
